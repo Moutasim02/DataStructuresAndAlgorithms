@@ -1,6 +1,6 @@
 package com.dsa.arrays_and_arraylists;
 
-public class MultiDimensionalArrays {
+public class MultiDimenArrays {
     public static void main(String[] args) {
         /* Looks like this (Matrix)
             1 2 3

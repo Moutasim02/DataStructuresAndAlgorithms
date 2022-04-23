@@ -25,5 +25,10 @@ int [][] twoDArray = {
 
 Note: arr.length gives you the number of rows
 ### 2.2 Looping through rows and columns
+For the input code, we took each array element from input, Process:
+- The arr initialized as 3x3 matrix
+- First for loop is for rows and the second is for columns
+- the .length in first loop gets number of rows, so we iterate based on it's value.
+- arr[row].length gets the number of elements inside the row, thus it's dynamic.
 
-
+[Next](ArrayList.md)

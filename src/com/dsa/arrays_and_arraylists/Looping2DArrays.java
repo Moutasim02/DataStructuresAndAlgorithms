@@ -10,6 +10,7 @@ public class Looping2DArrays {
         int[][] arr = new int[3][3];
         System.out.println(arr.length); // No. of rows
 
+        // 2.2
         // taking input
         for (int row = 0; row < arr.length; row++) {
             // for each col in every row
@@ -34,7 +35,7 @@ public class Looping2DArrays {
         }
 
         // Another way:
-        for (int[] a : arr) {
+        for (int[] a : arr) { // For arr, Datatype of every element is an int array by itself
             System.out.println(Arrays.toString(a));
         }
 
