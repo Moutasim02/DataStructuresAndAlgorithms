@@ -1,4 +1,4 @@
-package com.dsa.arrays_and_arraylists.practice;
+package com.data_strucutres.arrays_and_arraylists.practice;
 
 import java.util.Arrays;
 

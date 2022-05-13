@@ -1,4 +1,4 @@
-package com.dsa.arrays_and_arraylists;
+package com.data_strucutres.arrays_and_arraylists;
 
 public class MultiDimenArrays {
     public static void main(String[] args) {
