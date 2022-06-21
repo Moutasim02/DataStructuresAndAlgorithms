@@ -1,7 +1,7 @@
 # ArrayList and Multi-Dimensional Arraylist Notes
 
 ## Syntax
-``ArrayList<Integer> list = new ArrayList<>(10);``
+``ArrayList<T> list = new ArrayList<>();``
 
 ## Quick Notes (Arraylist)
 - Adding, removing, setting, and modifying arraylist usually all done using methods.
