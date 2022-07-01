@@ -15,3 +15,6 @@
 ## How to know if it's _sorted_ in ascending or descending order (order agnostic) [Section 2]?
   - if end > start --> ascending (increasing)
   - else --> decreasing
+
+## When to apply binary search?
+ - If array is sorted, Try binary search first.
