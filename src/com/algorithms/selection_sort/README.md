@@ -10,3 +10,5 @@ Best case = O(n^2)**
 ### Methodology
 - Find maximum item in the whole item
 - Next loop, Find max item in the remaining array while ignoring last element (already in right position)
+
+![img.png](img.png) Credit to: Geeks For Geeks

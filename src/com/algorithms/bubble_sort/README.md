@@ -4,7 +4,7 @@ Space complexity => O(1) (In-place sorting algorithm)
 Time complexity => Best: O(n) => sorted, Worst: O(n^2) => sorted in opposite
 
 
-### Methodology
+### Steps
 Every step (example: index 0 to 1) compare adjacent elements
 Example: 
 ``` java
@@ -16,5 +16,5 @@ Example:
 [1, 2, 3, 4, 5] // Done.
 ```
 ### Why?
-- With the first pass through the array, the largest element come to the end
+- With the first pass through the array, the largest element come to the end.
  
