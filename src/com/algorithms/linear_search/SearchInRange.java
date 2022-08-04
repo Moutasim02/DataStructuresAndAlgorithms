@@ -1,25 +1,26 @@
 package com.algorithms.linear_search;
 
+import java.util.Arrays;
+
 // Searching for n in range of indexes
 public class SearchInRange {
     public static void main(String[] args) {
-        int[] nums = {23, 46, 54, 11, 44, 66, 88, 34, -11, 23, -15};
+        int[] nums = {23, 46, 54, 11, 11, 66, 88, 34, -11, 23, -15};
         int target = 66;
-        int answer =  linearSearch(nums, target, 3, 5);
+        boolean answer = containsDuplicate(nums);
         System.out.println(answer);
     }
 
-    static int linearSearch(int[] arr, int target, int start, int end ) {
-        if (arr.length == 0) {
-            return -1;
-        }
+    public static boolean containsDuplicate(int[] nums) {
+        // [1,2,3,1]
+        Arrays.sort(nums);
+        for (int i = 0; i < nums.length; i++) {
 
-        for (int i = 0; i <= end; i++) {
-            int element = arr[i];
-            if (element == target) {
-                return i;
+            if (nums[i] == nums[i + 1]) {
+                return true;
             }
         }
-        return -1;
+
+        return false;
     }
 }
