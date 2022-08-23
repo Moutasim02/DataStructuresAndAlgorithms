@@ -17,4 +17,3 @@ Example:
 ```
 ### Why?
 - With the first pass through the array, the largest element come to the end.
- 

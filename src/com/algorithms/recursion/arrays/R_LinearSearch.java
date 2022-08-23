@@ -2,7 +2,7 @@ package com.algorithms.recursion.arrays;
 
 import java.util.ArrayList;
 
-public class RLinearSearch {
+public class R_LinearSearch {
     public static void main(String[] args) {
         int[] toSearch = {1, 2, 3, 3, 5, 16, 8};
         System.out.println(linearSearch(toSearch, 0, 8));

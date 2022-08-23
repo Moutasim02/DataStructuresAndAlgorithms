@@ -1,6 +1,6 @@
 package com.algorithms.recursion.basics;
 
-public class BinarySearchRecursively {
+public class R_BinarySearch {
     public static void main(String[] args) {
         int[] arr = {1, 3, 4, 5, 76, 77, 87, 88, 97};
         int target = 4;
