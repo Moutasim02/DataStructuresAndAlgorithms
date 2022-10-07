@@ -1,4 +1,4 @@
-package com.data_strucutres.arrays_and_arraylists.practice;
+package com.data_strucutres.lists.arrays_and_arraylists.practice;
 
 public class Max {
     public static void main(String[] args) {
