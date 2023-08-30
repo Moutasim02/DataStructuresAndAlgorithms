@@ -1,9 +1,6 @@
 package com.data_strucutres.random_collections;
 
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 /**
  * Cannot contain any duplicate items
